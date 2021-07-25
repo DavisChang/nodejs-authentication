@@ -1,6 +1,6 @@
 # nodejs-authentication
 
-Start this project. The reference is from [Painless Node.js Authentication].(https://developer.okta.com/blog/2019/10/03/painless-node-authentication#test-okta--oidc-authentication-in-your-nodejs-app) 
+Start this project. The reference is from [Painless Node.js Authentication](https://developer.okta.com/blog/2019/10/03/painless-node-authentication#test-okta--oidc-authentication-in-your-nodejs-app).
 
 ```bash
 npm install && npm start
