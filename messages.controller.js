@@ -1,7 +1,12 @@
 const messages = [];
 
 function getUserIdFromAuthenticatedRequest(req) {
-  return req.userId;
+  if (req.userId) {
+    return req.userId;
+  }
+
+  // oidc
+  return req.userContext && req.userContext.userinfo && req.userContext.userinfo.sub;
 }
 
 export async function getAll(req, res) {
